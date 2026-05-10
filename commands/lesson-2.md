@@ -305,7 +305,14 @@ Immediately after the completion card, say:
 
 **One more thing.**
 
-Read the file at `~/.inaj/gifts/brand-voice-prompt-pack.md`. If it doesn't exist, say so and move on.
+Open the gift file in their browser. Warn them first: "I'm about to open something in your browser. You'll see a permission pop-up — say yes."
+
+Then run:
+```bash
+open ~/.inaj/gifts/brand-voice-prompt-pack.html
+```
+
+If the file doesn't exist, announce it anyway and tell them it lives at `~/.inaj/gifts/`.
 
 Then output:
 
@@ -318,7 +325,7 @@ Then output:
    ║   emails, and Reels scripts in your exact voice.       ║
    ║   Not generic. Not AI-sounding. Yours.                 ║
    ║                                                        ║
-   ║   ~/.inaj/gifts/brand-voice-prompt-pack.md             ║
+   ║   ~/.inaj/gifts/brand-voice-prompt-pack.html           ║
    ║                                                        ║
    ╚════════════════════════════════════════════════════════╝
 ```

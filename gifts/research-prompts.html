@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quarterly Market Research Prompts — Ina J Photography</title>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #F9F5F0;
+    color: #2a2a2a;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  .header {
+    background: #232817;
+    color: #F9F5F0;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  .header .eyebrow {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #CA5E3C;
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-family: 'Alice', serif;
+    font-size: 2.6rem;
+    color: #F9F5F0;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .header .subtitle {
+    font-size: 1rem;
+    color: #b8b8a8;
+    max-width: 540px;
+    margin: 0 auto 8px;
+  }
+  .header .byline {
+    font-size: 0.875rem;
+    color: #CA5E3C;
+    margin-top: 8px;
+  }
+
+  .how-to-use {
+    background: white;
+    border-left: 4px solid #CA5E3C;
+    max-width: 760px;
+    margin: 48px auto;
+    padding: 36px 40px;
+    border-radius: 0 4px 4px 0;
+  }
+  .how-to-use h2 {
+    font-family: 'Alice', serif;
+    font-size: 1.3rem;
+    color: #232817;
+    margin-bottom: 16px;
+  }
+  .how-to-use p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+  }
+  .how-to-use code {
+    background: #F9F5F0;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: #CA5E3C;
+  }
+
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .category {
+    margin-top: 56px;
+    margin-bottom: 8px;
+  }
+  .category-label {
+    display: inline-block;
+    background: #232817;
+    color: #F9F5F0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+  .category h2 {
+    font-family: 'Alice', serif;
+    font-size: 1.5rem;
+    color: #CA5E3C;
+    margin-bottom: 4px;
+  }
+  .category-divider {
+    height: 2px;
+    background: linear-gradient(to right, #CA5E3C, transparent);
+    margin-bottom: 28px;
+  }
+
+  .prompt {
+    background: white;
+    border-radius: 4px;
+    padding: 32px 36px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .prompt-number {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #CA5E3C;
+    margin-bottom: 8px;
+  }
+  .prompt h3 {
+    font-family: 'Alice', serif;
+    font-size: 1.1rem;
+    color: #232817;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  .prompt-body {
+    background: #F9F5F0;
+    border-radius: 4px;
+    padding: 24px 28px;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: #3a3a3a;
+    white-space: pre-wrap;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .prompt-note {
+    margin-top: 16px;
+    padding: 14px 18px;
+    border-left: 3px solid #CA5E3C;
+    background: #fdf8f4;
+    font-size: 0.875rem;
+    color: #555;
+    border-radius: 0 4px 4px 0;
+  }
+  .prompt-note strong {
+    color: #232817;
+  }
+
+  .save-box {
+    background: #232817;
+    color: #F9F5F0;
+    border-radius: 4px;
+    padding: 40px 44px;
+    margin-top: 56px;
+  }
+  .save-box h2 {
+    font-family: 'Alice', serif;
+    font-size: 1.4rem;
+    color: #F9F5F0;
+    margin-bottom: 16px;
+  }
+  .save-box p {
+    font-size: 0.925rem;
+    color: #ccc;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
+  .save-box .action-prompt {
+    background: rgba(255,255,255,0.07);
+    border-left: 3px solid #CA5E3C;
+    padding: 16px 20px;
+    font-size: 0.9rem;
+    color: #eee;
+    white-space: pre-wrap;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">Lesson 3 Gift — AI for Pet Photographers</div>
+  <h1>Quarterly Market Research Prompts</h1>
+  <p class="subtitle">10 prompts to stay sharp on your local market. Run these 4 times a year. Takes about 20 minutes. Keeps your positioning sharp.</p>
+  <p class="byline">by Ina J Photography</p>
+</div>
+
+<div class="how-to-use">
+  <h2>How to use these</h2>
+  <p>Open Claude Code in any folder and paste the prompt. Claude will use your CLAUDE.md for context about your business and ideal client.</p>
+  <p>Run the full set quarterly, or dip into individual prompts whenever you need a specific answer. Replace all bracketed placeholders with your actual details before running.</p>
+</div>
+
+<div class="container">
+
+  <div class="category">
+    <div class="category-label">Category 01</div>
+    <h2>Dog Parent Intelligence</h2>
+    <div class="category-divider"></div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 01</div>
+    <h3>Local Community Pulse Check</h3>
+    <div class="prompt-body">I'm a pet photographer based in [your town].
+
+Search for active dog owner communities, Facebook groups, and events in [your town] and surrounding area.
+
+Tell me:
+- Which communities seem most active right now (names, approximate size if available)
+- Any local events or markets where dog owners gather
+- Any shifts in what dog owners in this area seem to be talking about or caring about
+
+Be specific to [your town]. If you can't find much, note that and tell me what you did find.
+
+Summarise in bullet points. Keep it practical.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 02</div>
+    <h3>What Dog Owners Are Asking Right Now</h3>
+    <div class="prompt-body">Search for the most common questions dog owners and pet photography clients are asking online right now.
+
+Use Reddit, Quora, Facebook groups, Google autocomplete patterns, and any other sources you can access.
+
+I want to know:
+- What questions they're asking before booking a pet photographer
+- What concerns or hesitations come up most
+- What they wish they knew before their first pet photography session
+- What they're saying after a session (good and bad)
+
+Give me 10 to 15 specific questions with brief notes on where you found them.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 03</div>
+    <h3>Content Gap Finder</h3>
+    <div class="prompt-body">I'm a pet photographer in [your town]. Read my CLAUDE.md for context on my business and ideal client.
+
+Search for blog posts, Instagram content, and YouTube videos about pet photography in [your town] and [state/region].
+
+Tell me:
+- What topics have already been covered well
+- What topics seem underrepresented or poorly answered
+- What my ideal client is searching for that doesn't have a good answer yet
+
+Give me 5 specific content ideas I could create that would fill real gaps. Be specific about the title and the angle.</div>
+  </div>
+
+  <div class="category">
+    <div class="category-label">Category 02</div>
+    <h2>Competitor Intelligence</h2>
+    <div class="category-divider"></div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 04</div>
+    <h3>Local Competitor Landscape Update</h3>
+    <div class="prompt-body">Search for pet photographers currently active in [your town] and within 50km.
+
+For each one you find, note:
+- Their name and business name
+- Their main positioning or message (from their website or Instagram bio)
+- Price signals if visible
+- What they seem to specialise in or lead with
+- When they last posted (active vs dormant)
+
+Give me a list of 5 to 10 photographers with brief notes on each.
+
+At the end, tell me:
+- What most of them have in common (the "everyone says this" problem)
+- Where I could differentiate based on my CLAUDE.md profile</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 05</div>
+    <h3>Competitor Content Audit</h3>
+    <div class="prompt-body">Search for Instagram and Facebook content from pet photographers in [your town] posted in the last 3 months.
+
+Tell me:
+- What types of content they're posting most (behind the scenes, final images, reels, tips, etc.)
+- What topics keep coming up across multiple photographers
+- What's performing well (high engagement) vs what's getting ignored
+- What's missing — what nobody in [your town] seems to be creating
+
+Give me a practical summary with 3 to 5 content opportunities I could act on.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 06</div>
+    <h3>Pricing Signals Research</h3>
+    <div class="prompt-body">Search for pet photographer pricing in [your town] and [state].
+
+Tell me:
+- What pricing is visible publicly (starting rates, packages, what's included)
+- What the common range seems to be at the low, mid, and high end
+- How photographers are framing their pricing (by session, by package, value-based, etc.)
+- Any pricing language that comes up a lot
+
+Note: I'm not trying to race to the bottom. I want to understand the market landscape.
+
+Read my CLAUDE.md to understand my current offer. After the research, tell me one thing worth considering based on what you found.</div>
+    <div class="prompt-note"><strong>Note:</strong> Use this to understand where you sit, not to change your pricing based on what others charge. Market awareness and market matching are two different things.</div>
+  </div>
+
+  <div class="category">
+    <div class="category-label">Category 03</div>
+    <h2>Content Strategy</h2>
+    <div class="category-divider"></div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 07</div>
+    <h3>Trending Topics in Pet Photography</h3>
+    <div class="prompt-body">Search for what's trending in pet photography content right now — globally and in [your country].
+
+Tell me:
+- What topics are getting the most engagement on Instagram and TikTok in the pet photography niche
+- Any new types of sessions or styles gaining momentum
+- What pet photography educators are talking about
+- Any industry shifts or conversations happening in the last 3 months
+
+Give me 5 content ideas or topics I could lean into based on what's trending.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 08</div>
+    <h3>Keyword and Search Intent Research</h3>
+    <div class="prompt-body">I'm a pet photographer in [your town]. Read my CLAUDE.md for context.
+
+Search for what potential clients are typing into Google when they're looking for a pet photographer in [your town] or [state].
+
+Tell me:
+- The most common search phrases
+- The intent behind those searches (ready to book vs still researching)
+- Any local search opportunities that seem underutilised
+- What my website should say to show up for these searches
+
+Give me a practical list of 10 to 15 search phrases and brief notes on each.</div>
+  </div>
+
+  <div class="category">
+    <div class="category-label">Category 04</div>
+    <h2>Ideal Client Research</h2>
+    <div class="category-divider"></div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 09</div>
+    <h3>Dog Owner Demographics Deep Dive</h3>
+    <div class="prompt-body">Research the dog owner demographics in [your town] or [state/region].
+
+I want to know:
+- Rough age range of dog owners who are most active on social media
+- What breeds are most popular in [your town] (if available)
+- What dog owners in this area seem to spend money on
+- What they care about beyond the dog (lifestyle, home, family, etc.)
+
+Use any sources available — census data, pet industry reports, social media research, local news.
+
+Connect this back to my CLAUDE.md ideal client profile. Tell me if my current ICA sounds accurate, or if the research suggests I should adjust my targeting.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 10</div>
+    <h3>Voice of Customer Mining</h3>
+    <div class="prompt-body">Search for reviews, comments, and posts from pet photography clients who have shared their experience online.
+
+Use Google reviews, Facebook, Instagram comments, Reddit, and any other sources you can access.
+
+Tell me:
+- The exact words and phrases clients use when they describe a great pet photography experience
+- What they say moved them most — what they didn't expect to feel
+- What common fears or hesitations came up before they booked
+- What they wish they'd known beforehand
+- Any specific language that keeps appearing across multiple reviews
+
+Give me 15 to 20 direct quotes or paraphrases from real clients.
+
+This language belongs in your website, your captions, and your follow-up emails.</div>
+    <div class="prompt-note"><strong>This is the most valuable prompt in the pack.</strong> Real client language in your marketing converts better than anything you'd write yourself. Run this one every quarter.</div>
+  </div>
+
+  <div class="save-box">
+    <h2>Save your findings</h2>
+    <p>After running any of these prompts, ask Claude:</p>
+    <div class="action-prompt">Based on the research you just completed, write me 3 action items I could act on this week.
+Be specific. No vague suggestions.</div>
+    <p style="margin-top: 20px;">Then save the output in a dated file. When you run the research next quarter, compare what changed. Your market intelligence compounds over time.</p>
+  </div>
+
+</div>
+
+<div class="footer">
+  Built for pet photographers by Ina J Photography &nbsp;·&nbsp; Part of the AI for Pet Photographers free course
+</div>
+
+</body>
+</html>

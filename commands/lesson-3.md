@@ -339,7 +339,14 @@ You can rerun this any time. Market changes, new photographers open, dog parent 
 
 ## Gift Unlock
 
-Read the file at `~/.inaj/gifts/research-prompts.md`. If it doesn't exist, say so and move on.
+Open the gift file in their browser. Warn them first: "I'm about to open something in your browser. You'll see a permission pop-up — say yes."
+
+Then run:
+```bash
+open ~/.inaj/gifts/research-prompts.html
+```
+
+If the file doesn't exist, announce it anyway and tell them it lives at `~/.inaj/gifts/`.
 
 Then output:
 
@@ -352,7 +359,7 @@ Then output:
    ║   Dog parent shifts, new competitors, content trends.  ║
    ║   Your local market in real time, any time.            ║
    ║                                                        ║
-   ║   ~/.inaj/gifts/research-prompts.md                    ║
+   ║   ~/.inaj/gifts/research-prompts.html                  ║
    ║                                                        ║
    ╚════════════════════════════════════════════════════════╝
 ```

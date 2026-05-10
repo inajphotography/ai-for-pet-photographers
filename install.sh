@@ -33,9 +33,9 @@ curl -fsSL "$BASE_URL/commands/lesson-4.md" -o "$HOME/.claude/commands/inaj/less
 echo ""
 echo "Downloading gifts..."
 curl -fsSL "$BASE_URL/gifts/30-prompts-for-pet-photographers.html" -o "$HOME/.inaj/gifts/30-prompts-for-pet-photographers.html" && echo "  + 30 prompts"
-curl -fsSL "$BASE_URL/gifts/brand-voice-prompt-pack.md"          -o "$HOME/.inaj/gifts/brand-voice-prompt-pack.md"          && echo "  + brand voice prompt pack"
-curl -fsSL "$BASE_URL/gifts/research-prompts.md"                 -o "$HOME/.inaj/gifts/research-prompts.md"                 && echo "  + research prompts"
-curl -fsSL "$BASE_URL/gifts/client-enquiry-emails.md"            -o "$HOME/.inaj/gifts/client-enquiry-emails.md"            && echo "  + client enquiry emails"
+curl -fsSL "$BASE_URL/gifts/brand-voice-prompt-pack.html"        -o "$HOME/.inaj/gifts/brand-voice-prompt-pack.html"        && echo "  + brand voice prompt pack"
+curl -fsSL "$BASE_URL/gifts/research-prompts.html"               -o "$HOME/.inaj/gifts/research-prompts.html"               && echo "  + research prompts"
+curl -fsSL "$BASE_URL/gifts/client-enquiry-emails.html"          -o "$HOME/.inaj/gifts/client-enquiry-emails.html"          && echo "  + client enquiry emails"
 
 echo ""
 echo "═══════════════════════════════════════════════════════════════"

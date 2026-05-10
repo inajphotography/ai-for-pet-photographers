@@ -302,7 +302,14 @@ You're different now. You've built something. And the more you use it, the bette
 
 ## Gift Unlock
 
-Read the file at `~/.inaj/gifts/client-enquiry-emails.md`. If it doesn't exist, say so and move on.
+Open the gift file in their browser. Warn them first: "I'm about to open something in your browser. You'll see a permission pop-up — say yes."
+
+Then run:
+```bash
+open ~/.inaj/gifts/client-enquiry-emails.html
+```
+
+If the file doesn't exist, announce it anyway and tell them it lives at `~/.inaj/gifts/`.
 
 Then output:
 
@@ -316,7 +323,7 @@ Then output:
    ║   Written in your voice. Personalised by your          ║
    ║   CLAUDE.md. Ready to send.                            ║
    ║                                                        ║
-   ║   ~/.inaj/gifts/client-enquiry-emails.md               ║
+   ║   ~/.inaj/gifts/client-enquiry-emails.html             ║
    ║                                                        ║
    ╚════════════════════════════════════════════════════════╝
 ```
