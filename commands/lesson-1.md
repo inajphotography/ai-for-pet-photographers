@@ -119,13 +119,13 @@ The 5 questions:
 
 1. **"What's your name, and where in the world do you photograph from? And how long have you been doing pet photography?"**
 
-2. **"Lovely. Now tell me about your dream client. What kind of dog parent do you love working with? Describe them like you're telling a friend who they are."**
+2. **"Lovely. Now tell me about your dream client. What kind of dog parent do you love working with? Describe them like you're telling a friend who they are. What do their dogs mean to them? What do they want from a session?"**
 
-3. **"How would you describe your style? Both the way you photograph (light and airy, painterly, moody, lifestyle, studio, outdoors) AND the way you talk to clients. What's your vibe?"**
+3. **"How would you describe your style? Both the way you photograph (light and airy, painterly, moody, lifestyle, studio, outdoors) AND the way you talk to clients. What's your vibe when you're working with someone?"**
 
-4. **"What are you offering right now? Just sessions? Sessions plus artwork? Do you do consultations? In-person ordering or online galleries? Walk me through what happens after someone books with you."**
+4. **"What are you offering right now? Walk me through what happens after someone enquires — consultations, sessions, how you deliver the images, whether you do in-person ordering or online galleries, and what kind of artwork people can get. And roughly where do you sit investment-wise — are you still building up to premium, mid-range, or positioning at the higher end for your market?"**
 
-5. **"Last one. If this AI could fix ONE thing in your pet photography business right now, what would it be? Inconsistent bookings, content for socials, following up with leads, pricing your work, sales conversations. Don't hold back."**
+5. **"Last one. If this AI could fix ONE thing in your pet photography business right now, what would it be? Inconsistent bookings, content for socials, following up with enquiries, pricing your work, sales conversations. Don't hold back."**
 
 After question 5, get genuinely warm and reassure them. Connect their answer to a real Claude capability so they know it's possible. Be specific.
 
@@ -137,34 +137,52 @@ Once you have all 5 answers, say:
 
 I'm about to create the brain of your AI assistant. You'll see a pop-up asking to create a file. Say yes. This is THE file that makes everything personal.
 
-Now create a `CLAUDE.md` file in their current working directory. Use their EXACT words wherever possible. Do not make it formal. Do not corporate-ify it.
+Now create a `CLAUDE.md` file in their current working directory. Use their EXACT words wherever possible. Do not make it formal. Do not corporate-ify it. If they said "dog mums who treat their pups like people" — that goes in verbatim. If they said "I'm not pushy at all, I just want them to feel looked after" — that goes in verbatim.
+
+This file belongs to THIS STUDENT. It contains their information only.
 
 Template to follow:
 
 ```markdown
-# CLAUDE.md
+# CLAUDE.md — [Their Name]'s Pet Photography Business
 
 ## About Me
-[Their name, location, how long they've been doing pet photography. Their words.]
+**Name:** [Their name]
+**Based in:** [Their town and country]
+**In pet photography for:** [How long]
+[One sentence in their words about how they got into it or where they are in their journey, if they shared that.]
 
 ## My Ideal Client
-[The dog parent they love working with. In their voice.]
+[Full description in their exact words — who this person is, their relationship with their dog, their lifestyle, their personality. Don't summarise. Use what they said.]
 
-## My Style
-[Photography style + how they communicate with clients. Their words.]
+**What they want from a session:** [What the client is looking for — connection, artwork, an experience, a gift, etc. Their words.]
+**What matters to them:** [What they care about — relaxed experience, natural photos, their dog's personality captured, etc.]
+
+## My Photography Style
+**Visual style:** [Light and airy / moody / lifestyle / documentary / studio / outdoors / etc. — their description]
+**Where I shoot:** [Outdoor locations, studio, client homes, specific environments they mentioned]
+[Any other style details they shared — how they approach a session, what they're trying to capture]
+
+## How I Work With Clients
+**My vibe:** [Their words about how they communicate — warm, nurturing, relaxed, professional, gently funny, etc.]
+**What clients feel with me:** [How they described the experience they create, if they mentioned it]
+[Any specifics about how they interact — do they lead, do they follow the dog, do they do a consultation first, etc.]
 
 ## My Offer
-[Sessions, artwork, consultations, IPS, online galleries. What they actually said.]
+**Session format:** [What a session looks like — length, location, what's included]
+**After the session:** [How they deliver — IPS, online gallery, in-person ordering, etc.]
+**Artwork available:** [Prints, canvases, albums, wall art, digital files — what they actually offer]
+**Investment level:** [Their words about where they sit — building to premium / mid-range / premium / high-end. Or a specific figure if they gave one.]
+**Extras / add-ons:** [Consultations, styling advice, location scouting, anything else they mentioned]
 
 ## My Client Journey
-[What happens after someone books, in their words]
+[Step by step from first enquiry to artwork delivered — their description of the process]
 
-## What I'm Building Toward
-[Their answer to question 5]
+## What I Want AI to Help With Most
+[Their exact answer to question 5 — verbatim. This is their primary goal. Keep it raw and honest.]
 
-## Brand Voice Notes
-- [Pull 2 to 3 voice cues from how they answered the questions]
-- Use spelling appropriate to their country (Australian English if Australian, US if American, etc.)
+## Country / Spelling
+[Australian English / US English / UK English / etc. — based on their location. Use this spelling in all content written for them.]
 ```
 
 After the file is created, say:
@@ -173,7 +191,7 @@ After the file is created, say:
 
 From this point forward, **every single conversation you have with Claude starts by reading that file.**
 
-It knows who you are, where you're based, who you love photographing, and how you talk.
+It knows who you are, where you're based, who your dream clients are, how you describe them, what your offer looks like, how you work with people, where you sit in the market, and what you're working toward.
 
 **Here's the thing.** This is a living document.
 
