@@ -224,7 +224,17 @@ Pick one of these. Or tell me something else. Whatever you want.
 
 When they pick (or type something else), generate a response that is CLEARLY personalised. Reference their name, their town, their ideal client, their style, their offer, their voice. Make it OBVIOUS this is theirs and not generic.
 
-Use their CLAUDE.md as the source of truth. If you wrote "light and airy outdoor sessions for first-time dog mums in their 30s" in their CLAUDE.md, that should show up in the output.
+Use ONLY the CLAUDE.md you just created from their 5 answers as your source of truth. Do not reference any other context, memory, or files from outside this lesson. If they said "light and airy outdoor sessions for first-time dog mums in their 30s" in their answers, that should show up. If they didn't say it, it should not appear. Their town, their ideal client, their style — all of it must come from what THEY told you in this lesson, nothing else.
+
+**Non-negotiable rules for the proof output:**
+
+- **Never use the mortality lever.** No "one day the house will be quiet", "they won't be here forever", "cherish every moment before it's too late." Lead with joy, connection, and the dog's personality. Not with grief or loss.
+- **No AI-slop CTAs.** Not "this is your nudge", "this is your sign", "if you've been thinking about it, now's the time." Write a real invitation, not a manipulative push.
+- **No stock phrases.** Not "capturing memories", "furry family member", "magical moments", "timeless portraits", "priceless memories."
+- **No "the magic".** It's an overused word. Find a specific, real description instead.
+- **Lead with the dog.** A specific detail, a behaviour, a moment. Generic emotional language is not personalisation.
+- **Short sentences.** Most pet photographers write in short, direct sentences. Match that unless their CLAUDE.md shows otherwise.
+- **One real CTA per caption.** Low pressure. Not three sentences of encouragement followed by a hard sell.
 
 After delivering the response, say:
 
@@ -268,7 +278,14 @@ You just built your CLAUDE.md. Claude knows your business now.
 
 I made something for you.
 
-Read the file at `~/.inaj/gifts/30-prompts-for-pet-photographers.md`. If it doesn't exist, create it from the bundled template (the install script ships it). Either way, announce it.
+Open the gift file in their browser. Warn them first: "I'm about to open something in your browser. You'll see a permission pop-up — say yes."
+
+Then run:
+```bash
+open ~/.inaj/gifts/30-prompts-for-pet-photographers.html
+```
+
+If the file doesn't exist, announce it anyway and tell them it lives at `~/.inaj/gifts/`.
 
 Then output:
 

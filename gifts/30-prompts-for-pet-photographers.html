@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>30 Power Prompts for Pet Photographers — Ina J Photography</title>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #F9F5F0;
+    color: #2a2a2a;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  /* HEADER */
+  .header {
+    background: #232817;
+    color: #F9F5F0;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  .header .eyebrow {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #CA5E3C;
+    margin-bottom: 16px;
+  }
+  .header h1 {
+    font-family: 'Alice', serif;
+    font-size: 2.6rem;
+    color: #F9F5F0;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+  .header .subtitle {
+    font-size: 1rem;
+    color: #b8b8a8;
+    max-width: 540px;
+    margin: 0 auto 8px;
+  }
+  .header .byline {
+    font-size: 0.875rem;
+    color: #CA5E3C;
+    margin-top: 8px;
+  }
+
+  /* HOW TO USE */
+  .how-to-use {
+    background: white;
+    border-left: 4px solid #CA5E3C;
+    max-width: 760px;
+    margin: 48px auto;
+    padding: 36px 40px;
+    border-radius: 0 4px 4px 0;
+  }
+  .how-to-use h2 {
+    font-family: 'Alice', serif;
+    font-size: 1.3rem;
+    color: #232817;
+    margin-bottom: 20px;
+  }
+  .how-to-use ol {
+    padding-left: 20px;
+  }
+  .how-to-use li {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+  }
+  .how-to-use li strong {
+    color: #232817;
+    font-weight: 600;
+  }
+  .how-to-use .refine-example {
+    background: #F9F5F0;
+    border-left: 3px solid #CA5E3C;
+    padding: 12px 16px;
+    margin: 16px 0 4px;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555;
+    border-radius: 0 4px 4px 0;
+  }
+
+  /* CONTAINER */
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  /* CATEGORY HEADER */
+  .category {
+    margin-top: 56px;
+    margin-bottom: 8px;
+  }
+  .category-label {
+    display: inline-block;
+    background: #232817;
+    color: #F9F5F0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 2px;
+    margin-bottom: 8px;
+  }
+  .category h2 {
+    font-family: 'Alice', serif;
+    font-size: 1.5rem;
+    color: #CA5E3C;
+    margin-bottom: 4px;
+  }
+  .category-divider {
+    height: 2px;
+    background: linear-gradient(to right, #CA5E3C, transparent);
+    margin-bottom: 28px;
+  }
+
+  /* PROMPT CARD */
+  .prompt {
+    background: white;
+    border-radius: 4px;
+    padding: 32px 36px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .prompt-number {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #CA5E3C;
+    margin-bottom: 8px;
+  }
+  .prompt h3 {
+    font-family: 'Alice', serif;
+    font-size: 1.1rem;
+    color: #232817;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  .prompt-body {
+    background: #F9F5F0;
+    border-radius: 4px;
+    padding: 24px 28px;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: #3a3a3a;
+    white-space: pre-wrap;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .prompt-body strong {
+    color: #232817;
+    font-weight: 600;
+  }
+
+  /* TIPS SECTION */
+  .tips {
+    background: #232817;
+    color: #F9F5F0;
+    border-radius: 4px;
+    padding: 40px 44px;
+    margin-top: 56px;
+  }
+  .tips h2 {
+    font-family: 'Alice', serif;
+    font-size: 1.4rem;
+    color: #F9F5F0;
+    margin-bottom: 24px;
+  }
+  .tip {
+    margin-bottom: 28px;
+  }
+  .tip strong {
+    color: #CA5E3C;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+  }
+  .tip-example {
+    background: rgba(255,255,255,0.07);
+    border-left: 3px solid #CA5E3C;
+    padding: 12px 16px;
+    margin-top: 10px;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: #ccc;
+    border-radius: 0 4px 4px 0;
+  }
+
+  /* FOOTER */
+  .footer {
+    background: #232817;
+    color: #b8b8a8;
+    text-align: center;
+    padding: 32px 24px;
+    font-size: 0.85rem;
+    margin-top: 0;
+  }
+  .footer a { color: #CA5E3C; text-decoration: none; }
+
+  @media (max-width: 600px) {
+    .header h1 { font-size: 1.8rem; }
+    .header { padding: 40px 24px; }
+    .how-to-use { margin: 32px 16px; padding: 28px 24px; }
+    .container { padding: 0 16px 60px; }
+    .prompt { padding: 24px 20px; }
+    .prompt-body { padding: 18px 16px; }
+    .tips { padding: 32px 24px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="eyebrow">AI for Pet Photographers — Free Course Gift</div>
+  <h1>30 Power Prompts<br>for Pet Photographers</h1>
+  <p class="subtitle">Engineered with role priming, context, constraints, and a quality bar so Claude gives you output that sounds like you, speaks to your ideal client, and is ready to use.</p>
+  <p class="byline">A gift from Ina Jalil — Ina J Photography</p>
+</div>
+
+<div class="how-to-use">
+  <h2>How to Use These Prompts</h2>
+  <ol>
+    <li><strong>Open Claude Code from your my-ai-assistant folder.</strong> That's where your CLAUDE.md lives. Claude reads it automatically, which is why these prompts work better than anything you've pasted into ChatGPT.</li>
+    <li><strong>Copy the whole prompt</strong> — not just the first line. The role and constraints are doing the work.</li>
+    <li><strong>Fill in the [brackets]</strong> with your real details. The more specific you are, the better the output.</li>
+    <li><strong>Refine the result.</strong> If it doesn't sound like you, say:
+      <div class="refine-example">"Less polished, more conversational. Match my voice from CLAUDE.md. Cut anything that sounds like a stock photographer caption."</div>
+    </li>
+  </ol>
+</div>
+
+<div class="container">
+
+  <!-- CATEGORY 1 -->
+  <div class="category">
+    <div class="category-label">Category 1</div>
+    <h2>Content Ideas</h2>
+    <p style="color:#666;font-size:0.9rem;margin-bottom:12px;">Captions, Reels, Carousels</p>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 01</div>
+    <h3>Five Instagram captions for the week</h3>
+    <div class="prompt-body">Act as a senior social media strategist who specialises in creatives, with a background in consumer psychology and neuroscience. Using my brand voice and ideal client from my CLAUDE.md, give me 5 Instagram caption ideas for this week:
+
+- 2 educational (teach my ideal client one thing they don't know about pet photography or printed artwork)
+- 2 storytelling (a real session moment, a dog parent reaction, a behind-the-scenes feeling)
+- 1 soft sell for my next available session
+
+For each one, give me:
+- A scroll-stopping hook (one line, designed to make a thumb stop)
+- The body (40 to 100 words, in my voice)
+- A CTA that earns a save, share, or comment (not a generic "DM me")
+- 5 to 8 hashtags suited to my city and niche
+
+<strong>Quality bar:</strong> A stranger should be able to tell my caption apart from a generic pet photographer's because of the specificity in voice, location, and the dog parent I'm speaking to.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 02</div>
+    <h3>Storytelling caption from a real session</h3>
+    <div class="prompt-body">Act as a pet photography copywriter who writes story-driven captions for high-end pet photographers. I just photographed [client first name]'s [dog name, breed, age, anything notable].
+
+The session moment that stood out was: [describe one specific moment in 1 to 2 sentences]
+
+Write me a caption that:
+- Opens with a hook tied to the moment, not a generic line
+- Tells the micro-story in 80 to 130 words, using my voice from CLAUDE.md
+- Lands on why this matters for the dog parent, not me
+- Ends with a soft, specific CTA
+- Includes 5 to 8 hashtags relevant to my location and ideal client
+
+<strong>Avoid:</strong> "beautiful memories you'll treasure forever", "unleash", "unlock", "this is your sign", or any line that could appear in a stock photographer's caption.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 03</div>
+    <h3>8-slide carousel: Why printed pet photography matters</h3>
+    <div class="prompt-body">Act as a content strategist who turns emotion-driven topics into shareable Instagram carousels for service businesses. Build me an 8-slide carousel on "Why printed pet photography matters" for my dog parent audience.
+
+Use my brand voice from CLAUDE.md and the psychology of my ideal client (they treat their dog like family, they value memory-keeping over things).
+
+For each slide, give me:
+- Slide number
+- The headline (max 8 words, readable on a phone screen at a glance)
+- The body copy (1 to 3 short lines max, conversational, no fluff)
+- A direction for the visual
+
+Slide 1 must be a scroll-stopper. Slide 8 must be a soft CTA, not a hard sell.
+
+<strong>Quality bar:</strong> A dog parent should feel something before they think about booking.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 04</div>
+    <h3>Reel hook picker</h3>
+    <div class="prompt-body">I have 3 reel ideas. Help me pick the strongest hook for each, and tell me why:
+
+[Paste your 3 ideas here, one per line]
+
+Act as a Reels strategist who has studied 1000+ viral pet and lifestyle reels. For each idea:
+- Rewrite it as a punchier hook (under 8 words, on-screen text in the first 1.5 seconds)
+- Score it out of 10 on scroll-stop power, with one sentence explaining the score
+- Suggest the visual that should pair with the hook
+- Suggest the CTA at the end
+
+Then tell me: which one to film first, and the single biggest change I should make to the other two before filming.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 05</div>
+    <h3>Consultation-themed reel hooks</h3>
+    <div class="prompt-body">Act as a content strategist for service-based businesses. Give me 5 hook options for a reel about how I run consultations with new pet photography clients.
+
+The goal: a dog parent who's considering booking should think "this is the photographer I want to work with" — felt, not learned.
+
+Use my CLAUDE.md voice and ideal client. For each hook:
+- The on-screen text (under 10 words)
+- The first 3 seconds of voiceover or caption
+- Why this hook works for my specific ideal client
+- The kind of B-roll that pairs with it
+
+<strong>Avoid:</strong> any hook that starts with "POV" or "3 things you didn't know about".</div>
+  </div>
+
+  <!-- CATEGORY 2 -->
+  <div class="category">
+    <div class="category-label">Category 2</div>
+    <h2>Dog Parent Emails</h2>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 06</div>
+    <h3>Re-engagement email to a quiet enquiry</h3>
+    <div class="prompt-body">Act as a senior copywriter who specialises in warm re-engagement emails for service businesses. An enquiry has gone quiet for 7 days. They originally asked about [what they asked about].
+
+Write me a one-email follow-up with:
+- 3 subject line options that don't feel automated
+- An opening that uses their first name and the specific thing they originally wanted
+- A line that reassures them there's no pressure
+- A line that re-romanticises why they enquired in the first place
+- One specific, tiny next step
+
+<strong>Tone:</strong> warm, gentle, no urgency tactics. Use my voice from CLAUDE.md.
+<strong>Length:</strong> 80 to 120 words. Easy to read on a phone.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 07</div>
+    <h3>Booking confirmation email</h3>
+    <div class="prompt-body">Act as a customer experience designer for premium service businesses. A new client just booked a [session type] for [date] in [location].
+
+Write me a booking confirmation email with:
+- A subject line that's warm and anticipation-building, not transactional
+- The date, time, and location confirmed
+- What to expect on the day (4 to 5 short bullets)
+- What to bring (dog's favourite toy, treats, second outfit if relevant)
+- How to prep their dog
+- A closing sentence that gets them excited, not anxious
+
+<strong>Voice:</strong> my CLAUDE.md voice. The whole email should make them feel like the experience has already started.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 08</div>
+    <h3>"What to expect at your ordering appointment" email</h3>
+    <div class="prompt-body">Act as a pet photographer who is excellent at preparing clients for in-person sales without making them feel sold to. Their ordering appointment is in [number] days.
+
+Write me an email with:
+- A subject line about anticipation, not "your appointment is coming up"
+- An opener that names the emotional reason this appointment matters
+- A step-by-step walk-through of what will happen (1, 2, 3 format)
+- What decisions they'll be making and what to think about beforehand
+- A reframe of the appointment as designing their home, not buying photos
+- One warm, gentle closing line
+
+Voice from CLAUDE.md. <strong>Length:</strong> 200 to 280 words.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 09</div>
+    <h3>Thank you email after artwork pickup</h3>
+    <div class="prompt-body">Act as a relationship-led service business owner. A client picked up their pet photography artwork 1 week ago.
+
+Write me a thank you email with:
+- A subject line that's personal, not promotional
+- One specific callback to their session or dog (use [their dog's name] and [one detail])
+- A gentle question they'd love answering ("how's [dog's name] settling into life with the artwork up?")
+- No upsell. No referral ask. Just gratitude.
+- A sign-off that sounds like me, not a brand.
+
+<strong>Length:</strong> under 100 words. Voice from CLAUDE.md.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 10</div>
+    <h3>Day-before-the-session email</h3>
+    <div class="prompt-body">Act as a pet photography copywriter. A client's session is tomorrow at [time, location].
+
+Write me an email with:
+- A subject line that makes the dog the star (use the dog's name)
+- One sentence confirming tomorrow's time and location
+- 3 quick prep tips for the dog (calm walk in the morning, treats they love, what to bring)
+- One warm, anticipation-building closing line
+
+<strong>Tone:</strong> like a friend texting them about something fun, not a vendor sending logistics. Voice from CLAUDE.md. Under 120 words.</div>
+  </div>
+
+  <!-- CATEGORY 3 -->
+  <div class="category">
+    <div class="category-label">Category 3</div>
+    <h2>Consultation + Discovery</h2>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 11</div>
+    <h3>Pre-consultation prep</h3>
+    <div class="prompt-body">Act as a sales coach who specialises in service-based, relationship-driven offers. I have a consultation tomorrow with [first name]. They mentioned in their enquiry: [paste exactly what they said].
+
+Give me:
+- 5 questions I should ask in the first 10 minutes to understand what they actually want
+- For each question, what the answer tells me about which experience to recommend
+- 2 emotional cues to listen for that signal a high-fit client
+- 1 question I should NOT ask (because it'll make them feel interviewed)
+
+<strong>Frame:</strong> they're a dog parent considering investing real money in pet photography. They want to feel safe, understood, and excited. Not pitched.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 12</div>
+    <h3>Opening 5 minutes of a consultation</h3>
+    <div class="prompt-body">Act as a sales coach for relationship-driven service businesses. Write me a script for the first 5 minutes of a pet photography consultation call.
+
+Goal: make the client comfortable, get them talking about their dog, and naturally transition into the discovery part of the call.
+
+Output:
+- Opening line (warm, calibrated, not "how are you today")
+- 1 transition question that opens up their story
+- 1 follow-up question that builds rapport without being intrusive
+- The "permission" line that transitions from rapport to discovery
+
+<strong>Voice from CLAUDE.md.</strong> Conversational, not scripted-sounding. Designed to internalise, not read on the call.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 13</div>
+    <h3>Objection handling: "I just want the digitals"</h3>
+    <div class="prompt-body">Act as a sales coach who specialises in helping service providers reframe objections without being pushy. A consultation client just said: "I really just want the digitals."
+
+Give me 3 different responses. For each:
+- The actual words I'd say (in my voice from CLAUDE.md)
+- The reframe behind the words (what shift I'm helping them make)
+- The personality type or context this version works best for
+
+<strong>Constraint:</strong> every response has to feel like service, not pressure. The client should leave feeling more clear, not more sold to. None of my responses should imply they're wrong for asking.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 14</div>
+    <h3>Post-consultation follow-up (didn't book on the call)</h3>
+    <div class="prompt-body">Act as a copywriter who writes warm post-call follow-ups for high-ticket service businesses. A client just had a consultation and didn't book on the call.
+
+Write me a follow-up email to send 24 hours later with:
+- A subject line that's not "following up" or "did you decide"
+- An opening with one specific callback to something they shared (their dog's name, a story they told)
+- A line that acknowledges this is a real decision and there's no pressure
+- A line that re-romanticises why they came to me
+- One specific, low-friction next step
+- A warm close
+
+<strong>Length:</strong> 120 to 180 words. Voice from CLAUDE.md.</div>
+  </div>
+
+  <!-- CATEGORY 4 -->
+  <div class="category">
+    <div class="category-label">Category 4</div>
+    <h2>Pricing Conversations</h2>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 15</div>
+    <h3>Cold pricing question response</h3>
+    <div class="prompt-body">Act as a service business expert who specialises in moving pricing-curious leads into a real conversation. A new lead just asked: "How much do you charge?" before booking a consultation.
+
+Write me a 2 to 4 line reply that:
+- Acknowledges the question warmly
+- Names a starting investment range (I'll fill in: my session fee starts at $[X], with most clients investing between $[Y] and $[Z] including artwork)
+- Redirects to a quick consult so they can find the right fit
+- Doesn't apologise, doesn't over-explain, doesn't sound corporate
+- Ends with one specific next step
+
+<strong>Voice:</strong> my CLAUDE.md. Should feel like a confident text from a friend who runs a real business.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 16</div>
+    <h3>First nurture email after enquiry (introduce pricing range)</h3>
+    <div class="prompt-body">Act as an email copywriter for premium service brands. Write the first email a new enquiry gets.
+
+Goal: introduce my pricing range and the experience without scaring them off, so they show up to a consultation already half-sold.
+
+Structure:
+- Subject line: warm, anticipation-building
+- Opens with their first name and the dog's name if I know it
+- Romanticises the experience first before naming numbers
+- Names the investment range with one anchor at the bottom and one at the top
+- Frames artwork as the experience, not an upsell
+- Ends with a specific next step (book a consult)
+
+<strong>Voice from CLAUDE.md. Length:</strong> 200 to 300 words.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 17</div>
+    <h3>Pricing guide intro paragraph</h3>
+    <div class="prompt-body">Act as a copywriter for premium photography brands. Write the opening paragraph of my pricing guide.
+
+Goal: frame artwork as the heart of the experience, not an upsell tier.
+
+The paragraph should:
+- Open with a felt, sensory line (not "thank you for considering me")
+- Reframe what they're really investing in (a memory, a piece of their home, a way of remembering this version of their dog)
+- Position the session as the start, the artwork as the destination
+- Sound like only I could have written it (use my CLAUDE.md voice)
+
+<strong>Avoid:</strong> any phrase that sounds like a brochure. <strong>Length:</strong> 80 to 120 words.</div>
+  </div>
+
+  <!-- CATEGORY 5 -->
+  <div class="category">
+    <div class="category-label">Category 5</div>
+    <h2>Social Posts</h2>
+    <p style="color:#666;font-size:0.9rem;margin-bottom:12px;">Local Dog Parent Content</p>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 18</div>
+    <h3>Local-first post ideas</h3>
+    <div class="prompt-body">Act as a local marketing strategist who specialises in lifestyle service businesses. Give me 3 Instagram post ideas centred on [my city / region] and the lifestyle of a dog parent who lives here.
+
+For each post:
+- The hook (under 10 words, scroll-stopping)
+- The angle (e.g. local dog park, dog-friendly café, beach, walk, seasonal event)
+- The body copy (60 to 100 words, in my voice from CLAUDE.md)
+- A CTA that earns local engagement
+- The kind of photo from my portfolio that pairs best
+
+<strong>Quality bar:</strong> a local dog parent should feel like this post was written for them, not for the internet.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 19</div>
+    <h3>Senior dog session celebration post</h3>
+    <div class="prompt-body">Act as a story-led copywriter for service businesses. Write me an Instagram post celebrating a recent senior dog session.
+
+Context:
+- The dog: [age, breed, name]
+- The session moment that stood out: [one moment]
+- What the dog's parent shared about why they booked: [their words]
+
+Output:
+- Hook (one line, sensory, not generic)
+- Body (100 to 160 words, my voice from CLAUDE.md, emotional but not heavy)
+- A line that gently reminds dog parents why now matters, without using fear or guilt
+- A CTA inviting comments
+
+<strong>Avoid:</strong> "treasure forever", "fur baby", and "this is your sign".</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 20</div>
+    <h3>"Hi, I'm [name]" introduction post</h3>
+    <div class="prompt-body">Act as a personal brand copywriter. Write me an introduction post for new followers who don't know me yet.
+
+Use my CLAUDE.md voice and ideal client. Output:
+- Hook (one line, NOT "hi, I'm [name]")
+- 80 to 140 words: who I am, who I serve, why I do this work, what makes my style mine
+- One specific detail (a real client story, a real reason I started, a real moment)
+- A soft CTA — a question they can answer in the comments
+
+<strong>Quality bar:</strong> someone reading it should be able to picture me, not a generic photographer.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 21</div>
+    <h3>Storytelling caption hooks for the month</h3>
+    <div class="prompt-body">Act as a content strategist. Give me 5 caption hook templates I can use this month, based on real client moments. For each:
+- The hook style (curiosity, emotion, contrast, observation, question)
+- The hook itself (under 12 words)
+- The kind of session moment it works for
+- One example using a fictional client and dog, in my voice from CLAUDE.md
+
+<strong>Quality bar:</strong> each hook should feel like the start of a story, not a tip.</div>
+  </div>
+
+  <!-- CATEGORY 6 -->
+  <div class="category">
+    <div class="category-label">Category 6</div>
+    <h2>Blog Posts</h2>
+    <p style="color:#666;font-size:0.9rem;margin-bottom:12px;">Pet Photographer SEO</p>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 22</div>
+    <h3>Local SEO blog topics</h3>
+    <div class="prompt-body">Act as a local SEO strategist who specialises in service businesses. Give me 10 blog post titles a dog parent in [my city] would actually search for on Google.
+
+For each:
+- The exact title (matching how a real person would search)
+- The intent (informational, navigational, transactional)
+- The angle that gives my post an unfair advantage over generic posts on the same topic
+- The primary keyword
+
+Mix of:
+- Pre-booking ("dog photography [city]", "best dog photographer in [city]")
+- Informational ("what to wear to a dog photo session", "best dog parks for photos in [city]")
+- Seasonal ("Christmas pet photos [city]", "spring dog session ideas")</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 23</div>
+    <h3>Blog post: What to expect from a session in [city]</h3>
+    <div class="prompt-body">Act as a content writer for premium photography brands. Write a 600-word blog post titled "What to expect from a pet photography session in [my city]".
+
+Use my CLAUDE.md voice. Structure:
+- Intro: emotional reason a dog parent in [my city] is reading this
+- Section 1: before the session (consultation, prep, location ideas in [my city])
+- Section 2: the session itself (style, vibe, how I work with their dog)
+- Section 3: after the session (ordering appointment, artwork)
+- Outro: a soft CTA to book a consult
+
+<strong>Tone:</strong> helpful, warm, confident, never salesy. Use real specifics — real locations, real timing, real session length.
+<strong>SEO:</strong> weave the keyword "pet photography in [my city]" naturally 4 to 6 times. Include 2 to 3 H2 headings.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 24</div>
+    <h3>Blog post outline: Why I photograph outdoors</h3>
+    <div class="prompt-body">Act as a content strategist. Outline a 700 to 900 word blog post titled "Why I photograph dogs outdoors instead of in a studio."
+
+Pull from my CLAUDE.md style notes. Output:
+- Hook intro (the emotional reason a dog parent reading this would care)
+- 3 H2 sections, each with 2 to 3 bullet points, including real reasons
+- Specific examples I should pull from my own session memory
+- A counterpoint section ("when studio works better") — adds credibility
+- Closing CTA
+
+<strong>Quality bar:</strong> the outline should feel like only I could have written this post.</div>
+  </div>
+
+  <!-- CATEGORY 7 -->
+  <div class="category">
+    <div class="category-label">Category 7</div>
+    <h2>Reviews + Referrals</h2>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 25</div>
+    <h3>Testimonial request email</h3>
+    <div class="prompt-body">Act as a copywriter who specialises in low-friction testimonial asks for service businesses. A client picked up their artwork 2 weeks ago.
+
+Write me an email with:
+- Subject line: warm, not "can you leave a review"
+- An opening with a specific callback to their session and dog
+- A testimonial ask that makes it easy to say yes — offer 3 micro-prompts they can answer
+- Where to leave it (Google review, my website, both — I'll pick)
+- A "no worries either way" out
+
+<strong>Length:</strong> 120 to 180 words. Voice from CLAUDE.md.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 26</div>
+    <h3>Refer-a-friend message</h3>
+    <div class="prompt-body">Act as a copywriter who specialises in word-of-mouth growth for service businesses. Write me a short message I can send to my best clients asking them to refer a friend.
+
+Format: 5 to 8 lines, sendable via email or DM.
+
+The message must:
+- Make it easy (acknowledge asking can feel awkward)
+- Tell them exactly who I'm a good fit for (so they refer the right people)
+- Offer a small, specific thank-you (a print credit, a print of their dog — leave [X] for me to fill)
+- End with one easy next step
+
+<strong>Voice from CLAUDE.md.</strong></div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 27</div>
+    <h3>Google review reply</h3>
+    <div class="prompt-body">Act as a service business owner who replies to reviews in a way that earns more reviews. A client just left me a 5-star Google review that said: [paste their review here].
+
+Write me a reply that:
+- Thanks them by first name
+- Calls back one specific thing from their review (so it doesn't sound auto-generated)
+- Adds a small, warm detail about their session or their dog
+- Closes with a sentence that subtly invites future readers to imagine themselves in this experience
+
+<strong>Length:</strong> under 80 words. Voice from CLAUDE.md.</div>
+  </div>
+
+  <!-- CATEGORY 8 -->
+  <div class="category">
+    <div class="category-label">Category 8</div>
+    <h2>Seasonal + Holiday</h2>
+  </div>
+  <div class="category-divider"></div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 28</div>
+    <h3>Seasonal content ideas</h3>
+    <div class="prompt-body">Act as a content strategist. It's [month / season] in [my city / region]. Give me 5 content ideas for my dog parent audience this month.
+
+Mix:
+- 1 educational (something they actually want to learn this month)
+- 1 emotional (a story or feeling tied to this season)
+- 1 seasonal/local (an event, a walk, a place in [my city])
+- 1 booking-related (an opening, a deadline, a reason to think about a session now)
+- 1 community (something they can engage with)
+
+For each: the platform best suited, the hook, and a 1-line description of the content.
+
+<strong>Use my CLAUDE.md voice and ideal client.</strong></div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 29</div>
+    <h3>Christmas card email to client list</h3>
+    <div class="prompt-body">Act as a copywriter who writes seasonal emails for relationship-driven service businesses. Write me a Christmas card email to my client list.
+
+Goal: warmth, gratitude, and connection. Not a discount, not a CTA, not a sale.
+
+Output:
+- Subject line: warm, personal
+- Opening line that does NOT start with "Merry Christmas"
+- A short reflection on the year (what I noticed in sessions, what dog parents shared, what stayed with me)
+- A specific thank-you to them
+- A closing line that feels like a card, not a marketing email
+
+<strong>Length:</strong> 150 to 220 words. Voice from CLAUDE.md.</div>
+  </div>
+
+  <div class="prompt">
+    <div class="prompt-number">Prompt 30</div>
+    <h3>Seasonal reel hooks</h3>
+    <div class="prompt-body">Act as a Reels strategist. It's [season] in [my city]. Give me 3 reel hook ideas for why this is a great time of year for an outdoor pet photography session.
+
+For each hook:
+- The on-screen text (under 8 words, readable in 1.5 seconds)
+- The visual that pairs with it
+- The voiceover or caption for the first 3 seconds
+- The CTA at the end
+
+<strong>Avoid:</strong> "now is the perfect time" and any cliché seasonal opener. Each hook should feel specific to this season in this place, not generic.</div>
+  </div>
+
+  <!-- TIPS -->
+  <div class="tips">
+    <h2>How to Make These Even Better</h2>
+    <div class="tip">
+      <strong>Stack prompts.</strong>
+      After running prompt 01 (5 captions), say:
+      <div class="tip-example">"Now take caption #3 and turn it into a reel script using prompt 05's structure."</div>
+    </div>
+    <div class="tip">
+      <strong>Audit your output.</strong>
+      After Claude writes anything, ask:
+      <div class="tip-example">"Audit this against my CLAUDE.md voice. Where does it sound generic or like a stock photographer? Rewrite those lines."</div>
+    </div>
+    <div class="tip">
+      <strong>Train Claude on your real voice.</strong>
+      Paste 3 of your actual best-performing captions and ask:
+      <div class="tip-example">"Analyse the patterns in how I write — sentence length, opener style, emotional anchors, CTA style. Use that pattern when you write for me from now on."</div>
+    </div>
+    <div class="tip">
+      <strong>Save what works.</strong>
+      When Claude nails a piece, copy it into a <code style="background:rgba(255,255,255,0.1);padding:2px 6px;border-radius:3px;">voice-examples.md</code> file in the same folder. Tell Claude to reference it. Your AI assistant gets sharper every time you do.
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>A gift from <a href="https://www.inajphotography.com.au">Ina Jalil</a> — AI for Pet Photographers free course</p>
+  <p style="margin-top:8px;">Part of <a href="https://www.inajphotography.com.au">Ina J Photography</a></p>
+</div>
+
+</body>
+</html>
