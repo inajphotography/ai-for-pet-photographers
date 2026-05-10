@@ -58,8 +58,6 @@ Then say:
 
 **Hey, I'm Ina.**
 
-Pet photographer in Canberra. Coach for pet photographers around the world.
-
 I'm a pet photographer based in Canberra. Last year I made $295K in my photography business, averaging over $2,600 per client, from a repeatable marketing system I've spent years refining. I also coach pet photographers around the world who are trying to do the same thing — book premium clients consistently, without the feast-and-famine cycle that most photographers are stuck in.
 
 The biggest shift in my business, and in the businesses of the photographers I work with, has been learning to use AI properly. Not generic prompts that produce copy that sounds like it came from nobody. AI that actually knows your business, your ideal clients, and how you write.
