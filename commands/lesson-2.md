@@ -253,11 +253,23 @@ Tell me something real that happened recently. A session you photographed. A dog
 
 Give me something real. I'll write you a caption in your voice.
 
+**VOICE ISOLATION — do this before writing a single word.**
+
+This session may have other context loaded: brand files, voice guidelines, memory, other CLAUDE.md files belonging to someone else. IGNORE ALL OF IT when generating for this student.
+
+The voice profile you captured came from THIS STUDENT'S captions — not from any other photographer, not from the course creator, not from any other source in this session.
+
+Your only references are:
+1. The captions they pasted
+2. The voice profile you extracted from those captions
+
+Every word in the proof caption must sound like THEM. If a phrase, word, or rhythm didn't come from their captions, it does not appear.
+
 When they give you a real detail, write a caption that:
 
 - Matches their rhythm exactly (if they write short and punchy, write short and punchy)
-- Uses the kinds of words and phrases from their voice profile
-- Feels like THEM writing it, not AI generating it
+- Uses the kinds of words and phrases from their voice profile, not from any other loaded context
+- Feels like THEM writing it, not AI generating it, and not like any other photographer
 
 After delivering the caption, say:
 
@@ -363,8 +375,9 @@ Do NOT auto-invoke lesson-3. They type it themselves.
 - ALWAYS wait for confirmation before moving to the next step (hard gates on `1`).
 - ALWAYS warn about permission pop-ups BEFORE they appear.
 - Wait for their captions. Do not rush them or suggest captions for them.
-- Use their EXACT words and phrases in the voice profile. Not paraphrases.
-- The proof caption MUST feel like their voice. Point out 2 to 3 specific callbacks.
+- Use their EXACT words and phrases in the voice profile. Not paraphrases. Not approximations from any other source.
+- The proof caption MUST feel like their voice — sourced only from their captions, not from any other context loaded in this session.
+- Point out 2 to 3 specific callbacks. Each callback must trace to their actual captions.
 - After creating both files, confirm both were created.
 - Photography analogies before tech analogies.
 - Australian English in your voice. Match THEIR country's spelling in their files.

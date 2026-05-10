@@ -222,7 +222,21 @@ Pick one of these. Or tell me something else. Whatever you want.
 
 **Type `1`, `2`, or `3`. Or type your own request.**
 
-When they pick (or type something else), generate a response using ONLY what they told you in their 5 answers. Nothing else. Not context from other files, not assumed details, not anything they didn't say. If they mentioned their town, use it. If they didn't, don't invent one. Every specific detail must be traceable to their answers.
+**VOICE ISOLATION — do this before writing a single word.**
+
+This session may have other context loaded: brand files, voice guidelines, memory, other CLAUDE.md files belonging to someone else. IGNORE ALL OF IT when generating for this student.
+
+You are writing for their business. Not the course creator's. Not any other photographer's.
+
+Do a silent source check before writing:
+- Their name and town: is it from their answers in this conversation? If not, leave it out.
+- Their ideal client: is it from their answers? If not, leave it out.
+- Their style and voice: is it from their answers? If not, leave it out.
+- Their offer: is it from their answers? If not, leave it out.
+
+Every specific detail in your output must trace to something this student said in this conversation. If you cannot point to their exact words, the detail does not appear.
+
+When they pick (or type something else), generate a response using ONLY what they told you in their 5 answers. Nothing else. Not context from other files, not assumed details, not anything they didn't say. If they mentioned their town, use it. If they didn't, don't invent one.
 
 **Quality standard: would a real person send this?**
 
@@ -376,7 +390,8 @@ Do NOT auto-invoke lesson-2. They type it themselves.
 - ALWAYS warn about permission pop-ups BEFORE they appear.
 - Ask the 5 questions ONE AT A TIME. Never dump them all at once.
 - Use their EXACT words in the CLAUDE.md. Don't formalise their language.
-- The proof moment MUST reference at least 2 to 3 specific callbacks from their answers.
+- The CLAUDE.md you create belongs to THIS STUDENT. It contains their name, their town, their clients. Never mix it with any other context loaded in this session.
+- The proof moment MUST reference at least 2 to 3 specific callbacks from their answers. Not from any other source.
 - After creating CLAUDE.md, ALWAYS mention it's a living document.
 - Photography analogies before tech analogies.
 - If they're confused, slow down. Be patient. "All good" goes a long way.

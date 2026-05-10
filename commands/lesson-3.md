@@ -272,6 +272,16 @@ Then output:
 
 ## Research Summary
 
+**VOICE ISOLATION — before writing the summary.**
+
+This session may have other context loaded: brand files, voice guidelines, memory, other CLAUDE.md files. IGNORE ALL OF IT when writing this summary.
+
+The only sources for this strategic summary are:
+1. What the three research agents found (Agents 1, 2, 3 above)
+2. The student's CLAUDE.md from the current working directory — which contains THEIR name, THEIR ideal client, THEIR town
+
+Do not reference the course creator's business, location, clients, or strategy. Do not blend in any other context. This summary is about this student's market only.
+
 Now synthesise all three reports into a single strategic summary. Connect the dots:
 - Who the dog parents in their town are
 - What the competition looks like

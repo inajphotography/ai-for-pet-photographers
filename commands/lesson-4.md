@@ -128,10 +128,22 @@ Then output:
 
 ## Step 2: Build the Guide
 
+**VOICE ISOLATION — do this before writing a single word.**
+
+This session may have other context loaded: brand files, voice guidelines, memory, other CLAUDE.md files belonging to someone else. IGNORE ALL OF IT when building this guide.
+
+The CLAUDE.md you are reading belongs to THIS STUDENT. It was created from their answers in Lesson 1. It contains their name, their location, their clients, their offer. It is not the course creator's file. It is not any other photographer's file.
+
+Your only sources for this guide:
+1. The student's CLAUDE.md in the current working directory
+2. Their 5 answers to the questions above
+
+Do not import any other voice, location, style, or business detail from anywhere else in this session.
+
 Now build the full "What to Expect" guide. Use:
-- Everything from their CLAUDE.md (their name, location, ideal client, style, brand voice)
+- The student's CLAUDE.md (their name, location, ideal client, style, brand voice — theirs, not anyone else's)
 - Their 5 answers, in their own words where possible
-- Their brand voice section from CLAUDE.md if it exists
+- Their brand voice section from their CLAUDE.md if it exists
 
 The guide should:
 - Sound like them, not like a corporate brochure
