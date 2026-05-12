@@ -377,6 +377,8 @@ Say:
 
 - Unlocked **30 AI Prompts for Pet Photographers**
 
+**One more thing.** When you're ready to go deeper, run `/inaj:context`. That's the full version of this file. Business model, pricing, ideal client in detail, client journey, tools, goals. The more Claude knows, the sharper every session gets.
+
 Most photographers using AI right now are getting the same generic responses as everyone else.
 
 **You just made it yours.**

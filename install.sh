@@ -29,6 +29,7 @@ curl -fsSL "$BASE_URL/commands/lesson-1.md" -o "$HOME/.claude/commands/inaj/less
 curl -fsSL "$BASE_URL/commands/lesson-2.md" -o "$HOME/.claude/commands/inaj/lesson-2.md" && echo "  + lesson-2"
 curl -fsSL "$BASE_URL/commands/lesson-3.md" -o "$HOME/.claude/commands/inaj/lesson-3.md" && echo "  + lesson-3"
 curl -fsSL "$BASE_URL/commands/lesson-4.md" -o "$HOME/.claude/commands/inaj/lesson-4.md" && echo "  + lesson-4"
+curl -fsSL "$BASE_URL/commands/context.md"  -o "$HOME/.claude/commands/inaj/context.md"  && echo "  + context"
 
 echo ""
 echo "Downloading gifts..."
@@ -40,7 +41,7 @@ curl -fsSL "$BASE_URL/gifts/client-enquiry-emails.html"          -o "$HOME/.inaj
 echo ""
 echo "═══════════════════════════════════════════════════════════════"
 echo ""
-echo "   DONE. 5 lessons + 4 gifts installed."
+echo "   DONE. 6 commands + 4 gifts installed."
 echo ""
 echo "   Now type:"
 echo ""
