@@ -1,5 +1,5 @@
 #!/bin/bash
-# AI for Pet Photographers — Course Installer
+# AI for Pet Photographers: Course Installer
 # by Ina Jalil / Ina J Photography
 # https://github.com/inajphotography/ai-for-pet-photographers
 
